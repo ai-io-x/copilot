@@ -5,3 +5,5 @@ Trying to program with Copilot
 
 - [golang](golang/prime-number)
 - [python](python/prime-number)
+- [java](java/prime-number/)
+- [rust](rust/prime-number/)
