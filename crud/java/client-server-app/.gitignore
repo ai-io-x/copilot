@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React
+build/
+dist/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+*.log
+
+# Maven
+.mvn/
+!**/src/main/**/mvnw
+!**/src/main/**/mvnw.cmd
+!**/src/main/**/mvnw.bat
+!**/src/main/**/mvnw.ps1
+!**/src/main/**/mvnw.sh
+!**/src/main/**/mvnw
+!**/src/main/**/mvnw.cmd
+!**/src/main/**/mvnw.bat
+!**/src/main/**/mvnw.ps1
+!**/src/main/**/mvnw.sh
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+
+# Logs
+logs/
+*.log

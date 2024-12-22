@@ -5,3 +5,10 @@ client is in react. this have two component both in one page. first componnet is
 Restapplication in golang has service and controller for (create/update/delete/read) data. read can be with a tag name or category name. read can be all data. data is json. clinet send website datas to this rest sever.
 third server is just for store and fetch data with sqlite in golang. sqlite has one table for link and websitenames, one table for categories and one table for tags. save first just 3 example data in sqlite to show in clinet side.
 
+__Prompt__:
+
+create a client server application with 3 layer. crud client for send data to a restserver. crud rest server for get/post/put and delete data. a server just for recieve data from restserver and store in a sqlite database. client is a react application. we have two servers one just for sql and store data in a sqlite database another server is just rest crud both servers are in spring-framework java. create for this application docker files and a docker compose file. when i run compose i need to build dockerfiles and run clinet and tow servers.
+client is in react. this have two component both in one page. first componnet is a form that should store information with this field (website name, link of website, a description and use tags and category for this). form can just get name of website and link of website. category and tag can dropdown and select user. second componnet is a table. form is top of page and table is down. by update and add each new data should update table. table should have a search or sort with tag and categories. with each table item should i change(update or delete) item.
+Restapplication in spring-framework java has service and controller for (create/update/delete/read) data. read can be with a tag name or category name. read can be all data. data is json. clinet send website datas to this rest sever.
+third server is just for store and fetch data with sqlite in spring-framework java. sqlite has one table for link and websitenames, one table for categories and one table for tags. save first just 3 example data in sqlite to show in clinet side.
+
