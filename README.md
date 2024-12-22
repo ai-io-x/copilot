@@ -7,9 +7,21 @@ Trying to program with Copilot
 
 - In mathematics, the [sieve of Eratosthenes is an ancient algorithm](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) for finding all prime numbers up to any given limit.
 
-- [golang](golang/prime-number)
-- [python](python/prime-number)
-- [java](java/prime-number/)
-- [rust](rust/prime-number/)
 - [c](c/prime-number/)
 - [c++](cpp/prime-number/)
+- [golang](golang/prime-number)
+- [java](java/prime-number/)
+- [python](python/prime-number)
+- [rust](rust/prime-number/)
+
+
+## [Conway's Game of Life]:
+
+- The Game of Life, also known as [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) or simply Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is Turing complete and can simulate a universal constructor or any other Turing machine.
+
+- [c](c/conways-game-of-life/)
+- [cpp](cpp/conways-game-of-life/)
+- [golang](golang/conways-game-of-life/)
+- [java](java/conways-game-of-life/)
+- [python](python/conways-game-of-life/)
+- [rust](rust/conways-game-of-life/)
