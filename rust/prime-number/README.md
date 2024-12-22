@@ -18,3 +18,5 @@ Time and Space Complexity: This algorithm is efficient, but generating and stori
 Output Size: Printing all prime numbers under one billion will generate a very large output. Consider writing the output to a file or limiting the number of primes you print if you are running this in a typical environment.
 Real-World Use Case
 The Sieve of Eratosthenes is commonly used in various fields such as cryptography, number theory, and computer science research, where prime number generation is essential.
+
+__How To Install Rust on Ubuntu?__: use `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
