@@ -11,3 +11,5 @@ Trying to program with Copilot
 - [python](python/prime-number)
 - [java](java/prime-number/)
 - [rust](rust/prime-number/)
+- [c](c/prime-number/)
+- [c++](cpp/prime-number/)
