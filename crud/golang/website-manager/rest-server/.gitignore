@@ -1,0 +1,32 @@
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+*.swp
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+
+# Test binary
+*.test
+
+# Output
+*.out
+
+# Go specific
+vendor/
+*.mod
+!go.mod
+*.sum
+!go.sum
+
+# IDE
+.idea/
+*.iml
