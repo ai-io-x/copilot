@@ -23,5 +23,6 @@ Trying to program with Copilot
 - [cpp](cpp/conways-game-of-life/)
 - [golang](golang/conways-game-of-life/)
 - [java](java/conways-game-of-life/)
+- [javascript](javascript/conways-game-of-life/)
 - [python](python/conways-game-of-life/)
 - [rust](rust/conways-game-of-life/)
