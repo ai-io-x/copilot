@@ -3,9 +3,11 @@ version: '3.8'
 
 services:
   app:
+    container_name: spring-boot-rest-api
     build:
       context: ..
       dockerfile: build-ops/Dockerfile
+    image: ai-io-x-devops:latest
     ports:
       - "8080:8080"
     volumes:
