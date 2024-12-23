@@ -1,0 +1,24 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/devcontainers-extra/features/ant-sdkman:2": {
+			"version": "latest",
+			"jdkVersion": "latest",
+			"jdkDistro": "ms"
+		},
+		"ghcr.io/devcontainers-extra/features/gradle-sdkman:2": {
+			"version": "latest",
+			"jdkVersion": "latest",
+			"jdkDistro": "ms"
+		},
+		"ghcr.io/devcontainers-extra/features/maven-sdkman:2": {
+			"version": "latest",
+			"jdkVersion": "latest",
+			"jdkDistro": "ms"
+		},
+		"ghcr.io/devcontainers-extra/features/springboot-sdkman:2": {
+			"version": "latest",
+			"jdkVersion": "latest"
+		}
+	}
+}
