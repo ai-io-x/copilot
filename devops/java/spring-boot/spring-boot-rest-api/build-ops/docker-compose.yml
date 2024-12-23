@@ -1,0 +1,21 @@
+# filepath: build-ops/docker-compose.yml
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: build-ops/Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ..:/app
+    # docker-compose build
+    # docker-compose run app
+    # Command to start a bash shell for manual commands
+    # command: bash
+    # Command to run Maven tests
+    # command: mvn clean test
+    # Command to run the application
+    # docker-compose up --build
+    command: java -jar app.jar
