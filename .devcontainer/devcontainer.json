@@ -19,6 +19,9 @@
 		"ghcr.io/devcontainers-extra/features/springboot-sdkman:2": {
 			"version": "latest",
 			"jdkVersion": "latest"
+		},
+		"ghcr.io/devcontainers/features/rust:1": {
+			"version":"latest"
 		}
 	}
 }
