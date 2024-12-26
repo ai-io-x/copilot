@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Manager</title>
+</head>
+<body>
+    <h1>Bookmark Manager</h1>
+    <form action="/add" method="post">
+        <input type="text" name="name" placeholder="Website Name" required>
+        <input type="text" name="link" placeholder="Website Link" required>
+        <textarea name="description" placeholder="Website Description"></textarea>
+        <button type="submit">Add Bookmark</button>
+    </form>
+    <ul>
+        {% for bookmark in bookmarks %}
+            <li>
+                <strong>{{ bookmark[1] }}</strong> - <a href="{{ bookmark[2] }}">{{ bookmark[2] }}</a><br>
+                {{ bookmark[3] }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
