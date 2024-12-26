@@ -4,6 +4,8 @@
 
 I want a program called Bookmark that stores website information in a portable internal (embedded) database. The information includes the website name, website link, and website description. This program should include a user access section (gui or web) where I can store my information. Suggest me what language to write in and make me an example.
 
+## Bookmark with GPT-4o:
+
 **GPT-4o**:
 You can write this program in Python using the Flask web framework for the user interface and SQLite for the embedded database. Below is an example of how you can create this Bookmark application.
 
@@ -115,6 +117,8 @@ This example provides a basic implementation. You can expand it by adding featur
 Similar code found with 1 license type
 
 <br>
+
+## Bookmark with Claude:
 
 **Claude 3.5 Sonnet**:
 
